@@ -3,7 +3,7 @@
 local exports = {}
 
 exports.unsafePartial = function (f)
-  return f(
+  return f()
 end
 
 return exports
